@@ -1,0 +1,39 @@
+@media(main-width:950px) and (max-width:1150px) {
+    .contaner img {
+        width: 330px;
+    }
+}
+
+@media (max-width:950px) {
+    .contaner {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contaner .img, .contaner .text{
+        width: 80%;
+    }
+}
+
+/* Smartphones (portrait) */
+@media only screen and (max-width: 450px) {
+    /* Styles */
+    .contact {
+        width:98%;
+    }     
+}
+  
+  /* iPads (portrait and landscape)  */
+  @media only screen and (min-device-width: 451px) and (max-device-width: 1024px) {
+    /* Styles */
+    .contact {
+        width: 49%;
+    }
+  }
+  
+  /* Desktops and laptops  */
+  @media only screen and (min-width: 1224px) {
+    /* Styles */
+    .contact {
+        width: 24%;
+    }
+  }

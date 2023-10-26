@@ -1,0 +1,29 @@
+.about {
+    text-align: center;
+}
+
+.about h2 {
+    color: black;
+    font-size: 64px;
+}
+
+.about p {
+    color: gray;
+    font-size: 22px;
+}
+
+.card {
+    display: flex;
+}
+
+
+.card img {
+    width: 500px;
+}
+
+.card p {
+    color: gray;
+    font-size: 22px;
+    padding: 20px;
+}
+

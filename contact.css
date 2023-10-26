@@ -1,0 +1,16 @@
+
+.contact {
+    width: 100%;
+    background-color: gray;
+    text-align: center;
+}
+
+.contact h4 {
+    font-size: 24px;
+}
+
+.contact button {
+    padding: 15px;
+    background-color: rgba(90, 30, 30, 0.325);
+}
+
